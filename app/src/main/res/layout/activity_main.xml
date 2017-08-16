@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30D5B5"
+    android:orientation="vertical"
+    tools:context="com.example.tngp17_001.work3.MainActivity">
+
+    <TextView
+        android:id="@+id/tvTapper"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/tapper" />
+
+    <EditText
+        android:id="@+id/editTextTap"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="36dp"
+        android:background="#09ffffff"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:hint="How many tap to win"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/imgbtnPlay"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="120dp"
+            android:background="#30D5B5"
+            android:gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:src="@drawable/playbtn" />
+    </LinearLayout>
+
+</LinearLayout>
